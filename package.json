@@ -1,0 +1,29 @@
+{
+  "name": "reimagined-chainsaw",
+  "engines": {
+    "node": "11.5.0"
+  },
+  "version": "1.0.0",
+  "description": "Code Along With Students for Heroku Deployment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krafalski/reimagined-chainsaw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krafalski/reimagined-chainsaw/issues"
+  },
+  "homepage": "https://github.com/Krafalski/reimagined-chainsaw#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.7"
+  }
+}
